@@ -76,12 +76,12 @@ class Usuario extends \yii\db\ActiveRecord implements \yii\web\IdentityInterface
 
     public function getAuthKey()
     {
-        return $this->authkey;
+        return $this->authKey;
     }
 
     public function validateAuthKey($authKey)
     {
-        return $this->authkey === $authKey;
+        return $this->authKey === $authKey;
     }
 
     public function validatePassword($password)
