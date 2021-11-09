@@ -34,8 +34,8 @@ $this->params['breadcrumbs'][] = $this->title;
             'nombre',
             'apellido',
             'password',
-            'accessToken',
-            'authKey',
+            //'accessToken',
+            //'authKey',
         ],
     ]) ?>
 
